@@ -9,18 +9,20 @@ const RemarkablePlugins = require('./core/RemarkablePlugins');
 
 const users = require('./showcase.json');
 const defaultVersionShown = '0.57';
-const baseUrl = '/react-native/';
-const repoUrl = 'https://github.com/facebook/react-native';
+const baseUrl = '/react-native-website/';
+const repoUrl =
+  'https://github.com/sakib-rahman-bangladesh/react-native-website';
 const siteConfig = {
   title: 'React Native',
   tagline: 'A framework for building native apps using React',
-  url: 'https://facebook.github.io',
+  url: 'https://sakib-rahman-bangladesh.github.io',
   baseUrl,
-  projectName: 'react-native',
+  projectName: 'react-native-website',
   repoUrl,
   defaultVersionShown,
   users,
-  editUrl: 'https://github.com/facebook/react-native-website/blob/master/docs/',
+  editUrl:
+    'https://github.com/sakib-rahman-bangladesh/react-native-website/blob/master/docs/',
   headerLinks: [
     {doc: 'getting-started', label: 'Docs'},
     {page: 'help', label: 'Community'},
